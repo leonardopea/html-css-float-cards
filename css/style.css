@@ -19,6 +19,8 @@ img{
     float: left;
     width: 80px;
     height: 80px;
+    margin-bottom: 40px;
+    
 }
 
 .blackbox{
@@ -26,11 +28,14 @@ img{
     color: white;
     text-align: left;
     padding-left: 90px;
+    height: 80px;
 
 }
 
 .colonna{
     width: calc(100% / 3 - 20px);
+    float: left;
+    margin-right: 20px;
 }
 
 .container::after{
@@ -39,3 +44,4 @@ img{
     clear: both;
 
 }
+
