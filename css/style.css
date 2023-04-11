@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 991px;
+    margin:20px auto;
+    width: 100%;
+    text-align: center;
+}
+
+.row{
+    margin-top: 40px;
+}
+
+img{
+    float: left;
+    width: 80px;
+    height: 80px;
+}
+
+.blackbox{
+    background-color: black;
+    color: white;
+    text-align: left;
+    padding-left: 90px;
+
+}
+
+.colonna{
+    width: calc(100% / 3 - 20px);
+}
+
+.container::after{
+    content: '';
+    display: table;
+    clear: both;
+
+}
